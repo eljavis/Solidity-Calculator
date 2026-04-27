@@ -105,10 +105,7 @@ contract CalculadoraTest is Test {
         calculadora.division(firstNumber_, secondNumber_);
     
         vm.stopPrank();
-    }
-
-    // Unit Testing: given inputs
-    //Fuzzing Testing: random inputs 
+    } 
 
     // Fuzzing Test
     function testFuzzingDivision(uint256 firstNumber_, uint256 secondNumber_) public {
